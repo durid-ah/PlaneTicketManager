@@ -18,6 +18,17 @@ public class UserRepo {
     PreparedStatement pstmt;
     ResultSet rs;
 
+
+    public JSONArray createUser(User newUder) {
+        // TODO: Implement this query
+//        INSERT INTO users(first_name, last_name, phone_number, email)
+//        VALUES (
+//                'Durid',
+//                'Ahmad',
+//                2087018678,
+//                'ahmad.durid96@gmail.com');
+    }
+
     public JSONArray getUserFlights (int userId) throws IOException, SQLException {
         JSONArray jsonArray = new JSONArray();
 
